@@ -1862,9 +1862,9 @@
             "ViewSonic Monitor XG271QG": true,
             "Winbond Gaming Keyboard": true,
             "Witmod Keyboard": true,
-            "Wooting 60HE": true,
+            "Wooting 60HE": false,
             "Wooting 60HE (ARM)": true,
-            "Wooting 60HE+": true,
+            "Wooting 60HE+": false,
             "Wooting 60HEv2": true,
             "Wooting 80HE": true,
             "Wooting One": true,
@@ -1967,6 +1967,20 @@
         ]
     },
     "Gigabyte RGB Fusion 2 USB": {},
+    "Plugins": {
+        "plugins": [
+            {
+                "description": "Provides a variety of custom effects",
+                "enabled": true,
+                "name": "OpenRGB Effects Plugin"
+            },
+            {
+                "description": "Sync colors with hardware measures",
+                "enabled": true,
+                "name": "OpenRGB Hardware Sync Plugin"
+            }
+        ]
+    },
     "ProfileManager": {
         "exit_profile": {
             "enabled": true,

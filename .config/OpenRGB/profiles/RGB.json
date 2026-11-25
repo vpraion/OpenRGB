@@ -15,7 +15,7 @@
             "configuration": null,
             "description": "ENE SMBus Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "DRAM LED 1"
@@ -42,7 +42,7 @@
                     "name": "DRAM LED 8"
                 }
             ],
-            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-13), address 0x72",
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-0), address 0x72",
             "modes": [
                 {
                     "brightness": 0,
@@ -221,7 +221,7 @@
             "configuration": null,
             "description": "ENE SMBus Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "DRAM LED 1"
@@ -248,7 +248,7 @@
                     "name": "DRAM LED 8"
                 }
             ],
-            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-13), address 0x73",
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-0), address 0x73",
             "modes": [
                 {
                     "brightness": 0,
@@ -427,7 +427,7 @@
             "configuration": null,
             "description": "ENE SMBus Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "DRAM LED 1"
@@ -454,7 +454,7 @@
                     "name": "DRAM LED 8"
                 }
             ],
-            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-13), address 0x74",
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-0), address 0x74",
             "modes": [
                 {
                     "brightness": 0,
@@ -633,7 +633,7 @@
             "configuration": null,
             "description": "ENE SMBus Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "DRAM LED 1"
@@ -660,7 +660,7 @@
                     "name": "DRAM LED 8"
                 }
             ],
-            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-13), address 0x75",
+            "location": "I2C: SMBus PIIX4 adapter port 0 at 0b00 (/dev/i2c-0), address 0x75",
             "modes": [
                 {
                     "brightness": 0,
@@ -910,7 +910,7 @@
             },
             "description": "IT8297BX-GBX570",
             "display_name": "",
-            "flags": 131073,
+            "flags": 131074,
             "leds": [
                 {
                     "name": "D_LED1, LED 1"
@@ -2038,7 +2038,7 @@
             "configuration": null,
             "description": "DRGB Controller Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "Channel A1, LED 0"
@@ -2897,7 +2897,7 @@
             "configuration": null,
             "description": "Razer Kraken Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "Headset"
@@ -3011,7 +3011,7 @@
             ],
             "description": "Logitech HID++ 2.0 Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "Primary"
@@ -3136,7 +3136,7 @@
             "configuration": null,
             "description": "Logitech Wireless Lightspeed Device",
             "display_name": "",
-            "flags": 1,
+            "flags": 2,
             "leds": [
                 {
                     "name": "Primary LED"
@@ -3249,393 +3249,6 @@
                     },
                     "name": "Logo Zone",
                     "type": 0
-                }
-            ]
-        },
-        {
-            "active_mode": 0,
-            "colors": [
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854,
-                16711854
-            ],
-            "description": "Wooting 60HE+",
-            "display_name": "",
-            "flags": 1,
-            "leds": [
-                {
-                    "name": "Key: Escape"
-                },
-                {
-                    "name": "Key: 1"
-                },
-                {
-                    "name": "Key: 2"
-                },
-                {
-                    "name": "Key: 3"
-                },
-                {
-                    "name": "Key: 4"
-                },
-                {
-                    "name": "Key: 5"
-                },
-                {
-                    "name": "Key: 6"
-                },
-                {
-                    "name": "Key: 7"
-                },
-                {
-                    "name": "Key: 8"
-                },
-                {
-                    "name": "Key: 9"
-                },
-                {
-                    "name": "Key: 0"
-                },
-                {
-                    "name": "Key: -"
-                },
-                {
-                    "name": "Key: +"
-                },
-                {
-                    "name": "Key: Backspace"
-                },
-                {
-                    "name": "Key: Tab"
-                },
-                {
-                    "name": "Key: Q"
-                },
-                {
-                    "name": "Key: W"
-                },
-                {
-                    "name": "Key: E"
-                },
-                {
-                    "name": "Key: R"
-                },
-                {
-                    "name": "Key: T"
-                },
-                {
-                    "name": "Key: Y"
-                },
-                {
-                    "name": "Key: U"
-                },
-                {
-                    "name": "Key: I"
-                },
-                {
-                    "name": "Key: O"
-                },
-                {
-                    "name": "Key: P"
-                },
-                {
-                    "name": "Key: ["
-                },
-                {
-                    "name": "Key: ]"
-                },
-                {
-                    "name": "Key: \\"
-                },
-                {
-                    "name": "Key: Caps Lock"
-                },
-                {
-                    "name": "Key: A"
-                },
-                {
-                    "name": "Key: S"
-                },
-                {
-                    "name": "Key: D"
-                },
-                {
-                    "name": "Key: F"
-                },
-                {
-                    "name": "Key: G"
-                },
-                {
-                    "name": "Key: H"
-                },
-                {
-                    "name": "Key: J"
-                },
-                {
-                    "name": "Key: K"
-                },
-                {
-                    "name": "Key: L"
-                },
-                {
-                    "name": "Key: ;"
-                },
-                {
-                    "name": "Key: '"
-                },
-                {
-                    "name": "Key: #"
-                },
-                {
-                    "name": "Key: Enter"
-                },
-                {
-                    "name": "Key: Left Shift"
-                },
-                {
-                    "name": "Key: \\ (ISO)"
-                },
-                {
-                    "name": "Key: Z"
-                },
-                {
-                    "name": "Key: X"
-                },
-                {
-                    "name": "Key: C"
-                },
-                {
-                    "name": "Key: V"
-                },
-                {
-                    "name": "Key: B"
-                },
-                {
-                    "name": "Key: N"
-                },
-                {
-                    "name": "Key: M"
-                },
-                {
-                    "name": "Key: ,"
-                },
-                {
-                    "name": "Key: ."
-                },
-                {
-                    "name": "Key: /"
-                },
-                {
-                    "name": "Key: Right Shift"
-                },
-                {
-                    "name": "Key: Left Control"
-                },
-                {
-                    "name": "Key: Left Windows"
-                },
-                {
-                    "name": "Key: Left Alt"
-                },
-                {
-                    "name": "Spacebar LED 1"
-                },
-                {
-                    "name": "Spacebar LED 2"
-                },
-                {
-                    "name": "Key: Space"
-                },
-                {
-                    "name": "Spacebar LED 3"
-                },
-                {
-                    "name": "Spacebar LED 4"
-                },
-                {
-                    "name": "Key: Right Alt"
-                },
-                {
-                    "name": "Key: Menu"
-                },
-                {
-                    "name": "Key: Right Control"
-                },
-                {
-                    "name": "Key: Right Fn"
-                }
-            ],
-            "location": "HID: /dev/hidraw7",
-            "modes": [
-                {
-                    "brightness": 0,
-                    "brightness_max": 0,
-                    "brightness_min": 0,
-                    "color_mode": 1,
-                    "colors_max": 0,
-                    "colors_min": 0,
-                    "direction": 0,
-                    "flags": 32,
-                    "name": "Direct",
-                    "speed": 0,
-                    "speed_max": 0,
-                    "speed_min": 0
-                }
-            ],
-            "name": "Wooting 60HE+ zone",
-            "serial": "A02B2409W05T02100S02H09333",
-            "type": 5,
-            "vendor": "Wooting",
-            "version": "",
-            "zones": [
-                {
-                    "display_name": "",
-                    "flags": 0,
-                    "leds_count": 67,
-                    "leds_max": 67,
-                    "leds_min": 67,
-                    "matrix_map": {
-                        "height": 5,
-                        "map": [
-                            0,
-                            1,
-                            2,
-                            3,
-                            4,
-                            5,
-                            6,
-                            7,
-                            8,
-                            9,
-                            10,
-                            11,
-                            12,
-                            13,
-                            14,
-                            15,
-                            16,
-                            17,
-                            18,
-                            19,
-                            20,
-                            21,
-                            22,
-                            23,
-                            24,
-                            25,
-                            26,
-                            27,
-                            28,
-                            29,
-                            30,
-                            31,
-                            32,
-                            33,
-                            34,
-                            35,
-                            36,
-                            37,
-                            38,
-                            39,
-                            40,
-                            41,
-                            42,
-                            43,
-                            44,
-                            45,
-                            46,
-                            47,
-                            48,
-                            49,
-                            50,
-                            51,
-                            52,
-                            53,
-                            4294967295,
-                            54,
-                            55,
-                            56,
-                            57,
-                            4294967295,
-                            58,
-                            59,
-                            60,
-                            61,
-                            62,
-                            4294967295,
-                            63,
-                            64,
-                            65,
-                            66
-                        ],
-                        "width": 14
-                    },
-                    "name": "Wooting 60HE+ zone",
-                    "type": 2
                 }
             ]
         },
